@@ -427,8 +427,8 @@ main {
     }
 }
 .container-wasap{
-    border-radius: 50%;
-    padding: 3px;
+    border-radius: 50px;
+    padding: 5px;
     transition: ease 0.s;
     animation: efecto 1.2s infinite;
 }
