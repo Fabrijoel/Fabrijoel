@@ -290,6 +290,112 @@ main {
     display: none;
 }
 
+
+
+
+
+
+
+
+
+
+
+/* SECCION CONTACTO */
+
+/* CONTACTO 2 */
+
+#contacto {
+    padding: 20px 15px;
+    background-color: #1a1a1a;
+}
+
+#contacto .titulo-seccion {
+    margin-bottom: 20px;
+}
+
+#contacto .contenedor-form {
+    max-width: 700px;
+    margin: auto;
+}
+
+#contacto .contenedor-form .fila {
+    margin-bottom: 15px;
+}
+
+#contacto .contenedor-form .mitad {
+    display: flex;
+    justify-content: space-between;
+}
+
+#contacto .contenedor-form input,
+#contacto .contenedor-form textarea {
+    background-color: #ebebeb;
+    padding: 20px;
+    border-radius: 20px;
+    border: none;
+}
+
+#contacto .contenedor-form .mitad input {
+    width: 48%;
+}
+
+#contacto .contenedor-form .input-full {
+    width: 100%;
+}
+
+#contacto .titulo-seccion {
+    text-align: center;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+#contacto .btn-enviar {
+    display: block;
+    margin: auto;
+    cursor: pointer;
+    transition: .5s;
+    padding: 10px 15px !important;
+}
+
+#contacto .btn-enviar:hover {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+/* CONTACTO 2 */
+
+
+footer{
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 50px 0 30px 0;
+    text-align: center;
+    position: relative;
+    width: 100%;
+}
+footer .redes{
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*** MEDIA QUERIES ***/
 
 @media screen and (max-width: 850px) {
@@ -392,6 +498,15 @@ main {
 
 
 
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 400px) {
     .contenedor-productos {
         grid-template-columns: 1fr;
@@ -447,3 +562,16 @@ main {
         box-shadow: 0 0 0 25px rgba(0, 0, 0, 0);
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
